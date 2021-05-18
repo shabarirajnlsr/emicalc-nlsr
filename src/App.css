@@ -1,0 +1,36 @@
+body{
+     background-image: url(https://images.unsplash.com/photo-1568166889030-5f7e811b709a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center
+}
+
+.maincontentcalc{
+     margin:30px auto; 
+     width: 400;
+     height: 600;
+     text-align: center;
+     border: 6px solid rgb(141, 139, 139);
+     padding: 10px;
+     background-image: url(https://images.unsplash.com/photo-1552525425-c3b0aa0e48ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+     background-size: cover;
+     background-position:center;
+     color: white;
+}
+.card-main{
+     display: flex;
+     justify-content: center;
+     padding: 5px;
+}
+.rangedsgn{
+     cursor: pointer;
+}
+.maincontentcalc button{
+     font-size: 18px;
+    background-color: teal;
+}
+.maincontentcalc button:hover{
+     font-size: 20px;
+    background-color: rgb(8, 55, 116);
+    color: white;
+}
